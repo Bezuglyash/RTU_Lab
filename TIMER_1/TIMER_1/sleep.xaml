@@ -1,4 +1,4 @@
-﻿<Window x:Class="TIMER_1.sleep"
+<Window x:Class="TIMER_1.sleep"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -8,7 +8,7 @@
         Title="Режим сна" Height="328" Width="528">
     <Grid Background="#FFEAF0B5">
         <Button Content="Включить режим сна через               ч.                 мин.                 сек." HorizontalAlignment="Left" Margin="0,108,0,0" VerticalAlignment="Top" Width="520" Click="Button_Click" Background="#FFE47427" RenderTransformOrigin="0.504,3.9" Height="20"/>
-        <Label x:Name="label_sleep" Content="" Margin="67,146,0,0" VerticalAlignment="Top" Width="375" HorizontalAlignment="Left"/>
+        <Label x:Name="label_sleep" Content="" Margin="63,146,0,0" VerticalAlignment="Top" Width="386" HorizontalAlignment="Left"/>
         <TextBox x:Name="hours" HorizontalAlignment="Left" Height="20" Margin="232,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42" RenderTransformOrigin="6.833,-4.733"/>
         <TextBox x:Name="minutes" HorizontalAlignment="Left" Height="20" Margin="299,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42" RenderTransformOrigin="-1.359,0.35"/>
         <TextBox x:Name="seconds" HorizontalAlignment="Left" Height="20" Margin="378,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42"/>
