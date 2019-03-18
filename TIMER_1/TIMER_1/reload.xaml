@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Перезагрузка" Height="328" Width="528">
     <Grid Background="#FFEAF0B5">
-        <Button x:Name="inform_r" Content="Перезагрузить компьютор через               ч.                 мин.                 сек." HorizontalAlignment="Left" Margin="0,108,0,0" VerticalAlignment="Top" Width="520" Click="Button_Click" Background="#FFE47427" RenderTransformOrigin="0.504,3.9" Height="20"/>
+        <Button x:Name="inform_r" Content="Перезагрузить компьютер через               ч.                 мин.                 сек." HorizontalAlignment="Left" Margin="0,108,0,0" VerticalAlignment="Top" Width="520" Click="Button_Click" Background="#FFE47427" RenderTransformOrigin="0.504,3.9" Height="20"/>
         <Label x:Name="label_reload" Content="" Margin="63,146,0,0" VerticalAlignment="Top" Width="386" HorizontalAlignment="Left"/>
         <TextBox x:Name="hours" HorizontalAlignment="Left" Height="20" Margin="246,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42" RenderTransformOrigin="6.833,-4.733"/>
         <TextBox x:Name="minutes" HorizontalAlignment="Left" Height="20" Margin="313,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42" RenderTransformOrigin="-1.359,0.35"/>
